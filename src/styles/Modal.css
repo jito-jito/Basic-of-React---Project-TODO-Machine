@@ -1,0 +1,66 @@
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    min-height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(182, 65, 166);
+}
+
+.form-title {
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.form-containerInput {
+    margin: 20px 0;
+}
+
+.form-textInput {
+    outline-color: rgb(174, 0, 255);
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(44, 0, 58);
+
+}
+
+.form-textInput::placeholder {
+    font-size: 13px;
+    color: rgb(158, 158, 158);
+}
+
+.form-containerInput > button {
+    margin-left: 25px;
+    width: 95px;
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.form-containerInput > .form-button--cancel {
+    margin: 0;
+    background-color: rgb(141, 97, 182);
+    color: white;
+}
+
+.form-containerInput > .form-button--submit {
+    background-color: rgb(214, 70, 190);
+    color: white;
+}
+
